@@ -18,9 +18,9 @@ Consulta de taxas de câmbio atualizadas a partir da API do ExchangeRate-API.
 ## Componentes do Projeto
 
 O projeto foi divido em 3 classes com resposabilidades distintas
-   - A [Classe Main](https://github.com/FredericoSander/Conversor_Moeda_Java/blob/main/src/main/java/Conversor/Principal/Main.java)
+   - [A Classe Main](https://github.com/FredericoSander/Conversor_Moeda_Java/blob/main/src/main/java/Conversor/Principal/Main.java)
    - [A Classe ExchangeRateResponse](https://github.com/FredericoSander/Conversor_Moeda_Java/blob/main/src/main/java/Conversor/Modelo/ExchangeRateResponse.jav)
-   - [A classe ConverterMoeda](https://github.com/FredericoSander/Conversor_Moeda_Java/blob/main/src/main/java/Conversor/service/ConverterMoeda.java)
+   - [A Classe ConverterMoeda](https://github.com/FredericoSander/Conversor_Moeda_Java/blob/main/src/main/java/Conversor/service/ConverterMoeda.java)
 
 ### 1. [A Classe Main](https://github.com/FredericoSander/Conversor_Moeda_Java/blob/main/src/main/java/Conversor/Principal/Main.java)
 Este é o ponto de entrada da aplicação. Ele contém o método main e o método exibeMenu. O método exibeMenu apresenta 10 opções de conversão de moedas. Para realizar a conversão o Usuário deve selecionar uma das opções disponiveis e postriormente a seleção o udsuaraio deverá informar o valor que deveja que seja convertido. A conversão é realizada de forma instantanea e o resultado pe apresentado na tela do terminal. 
